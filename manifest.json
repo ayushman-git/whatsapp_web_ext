@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Whatsapp Web Util",
+  "version": "1.0",
+  "description": "Whatsapp Web Util",
+  "content_scripts": [
+    {
+      "js": ["index.js"],
+      "matches": [
+        "https://web.whatsapp.com/"
+      ]
+    }
+  ]
+}
